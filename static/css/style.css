@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    color: #383729;
+}
+
+table {
+    margin: auto;
+}
+
+
+img {
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
