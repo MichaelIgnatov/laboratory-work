@@ -7,11 +7,22 @@
     <title>Моя визитка</title>
 </head>
 <body>
+    <nav>
+        <ul>
+          <li><a href="#about">О себе</a></li>
+          <li><a href="#skills">Навыки</a></li>
+          <li><a href="#education">Образование</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
 
+    <section id="about">
     <h1>О себе</h1>
     <p>Привет! Меня зовут Михаил. Мне 18 лет.</p>
     <p>Я родился и вырос в Сыктывкаре. Закончил среднюю общеобразовательную школу №26. Сейчас я учусь в СГУ им. Питирима Сорокина на прикладной информатике</p>
+    </section>
 
+    <section id="skills">
     <h2>Навыки</h2>
     <table border="1">
         <tr>
@@ -27,13 +38,16 @@
             <td>Баскетбол</td>
         </tr>
     </table>
+    </section>  
 
+    <section id="education">
     <h2>Образование</h2>
     <ul>
         <li>МАОУ СОШ №26, среднее общее образование</li>
         <li>СГУ им. Питирима Сорокина, ИТНИТ: прикладная информатика</li>
         <li>Курсы веб-разработки на платформе HTML Academy, курс программирования на python от Лицея Академии Яндекса</li>
     </ul>
+    </section>
 
     <img src="static/img/5fab9059aaf970c_upscaled.jpg" alt="кот">
 
@@ -54,11 +68,13 @@
     </div>
     <p id="response"></p>
 
+    <section id="contacts">
     <h2>Контакты</h2>
     <p>Email: Absdeg@yandex.ru</p>
     <p>Социальные сети:  
         <a href="https://github.com/MichaelIgnatov" target="_blank">GitHub</a>
     </p>
+    </section>
     <script src="static/scripts/script.js"></script>
 </body>
 </html>
